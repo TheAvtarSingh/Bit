@@ -15,8 +15,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "dev" : "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node index.js",
+ "test": "jest"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
@@ -24,5 +24,8 @@
   },
   "bin": {
     "bit": "./index.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
