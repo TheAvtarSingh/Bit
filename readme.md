@@ -65,14 +65,14 @@ Replace `<filename>` with the name of the file you want to add to the repository
 
 ### Initializing a Bit Repository
 
-![Initialize Bit Repo](https://example.com/add-file-screenshot.png)
+![Initialize Bit Repo](https://github.com/TheAvtarSingh/bit/edit/master/readme.md#usage)
 
 <img width="352" alt="Screenshot 2025-02-14 at 10 48 19 PM" src="https://github.com/user-attachments/assets/a675a6aa-877d-4b3b-8e77-80653093d4b1" />
 
 <img width="171" alt="Screenshot 2025-02-14 at 10 46 28 PM" src="https://github.com/user-attachments/assets/1748cdd1-4cd6-4126-a624-c054a9f1cca6" />
 
 ### Adding Files to the Repository
-![Adding Files](https://example.com/add-file-screenshot.png)
+![Adding Files](https://github.com/TheAvtarSingh/bit/edit/master/readme.md#features)
 
 ## Contributing
 
