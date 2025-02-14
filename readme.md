@@ -1,6 +1,7 @@
 # Bit Repository Manager
 
-![Bit Logo](https://example.com/bit-logo.png)
+![Bit Logo](https://github.com/user-attachments/assets/e3f00e6a-de41-4173-890b-50d04f4e0eb8)
+
 
 Bit Repository Manager is a simple and efficient command-line tool designed to help you manage your Bit repositories with ease. It allows you to initialize a new Bit repository and add files seamlessly.
 
