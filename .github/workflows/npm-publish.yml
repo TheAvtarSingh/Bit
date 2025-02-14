@@ -31,16 +31,3 @@ jobs:
           npm publish
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-      # Publish to GitHub Packages
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          registry-url: https://npm.pkg.github.com/
-
-      - name: Publish to GitHub Packages
-        run: |
-          npm config set //npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}
-          npm publish --registry=https://npm.pkg.github.com/
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
