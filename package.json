@@ -1,0 +1,24 @@
+{
+  "name": "bit",
+  "version": "1.0.0",
+  "description": "Your Personal Modifiable Git",
+  "homepage": "https://github.com/TheAvtarSingh/bit#readme",
+  "bugs": {
+    "url": "https://github.com/TheAvtarSingh/bit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TheAvtarSingh/bit.git"
+  },
+  "license": "ISC",
+  "author": "TheAvtarSingh",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
