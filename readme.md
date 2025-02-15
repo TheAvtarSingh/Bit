@@ -12,6 +12,17 @@ Bit Repository Manager is a simple and efficient command-line tool designed to h
 ✅ Simple and lightweight command-line tool  
 ✅ Easy setup and installation  
 
+## Installation (User)
+
+[![npm version](https://img.shields.io/npm/v/bitshit.svg)](https://www.npmjs.com/package/bitshit)
+[![npm downloads](https://img.shields.io/npm/dt/bitshit.svg)](https://www.npmjs.com/package/bitshit)
+[![npm install globally](https://img.shields.io/badge/npm%20install%20-g%20bitshit-brightgreen)](https://www.npmjs.com/package/bitshit)
+
+```sh
+npm i -g bitshit
+```
+
+
 ## Installation
 
 To install **Bit Repository Manager**, follow these steps:
@@ -26,6 +37,7 @@ cd bit
 # Install dependencies
 npm install
 ```
+
 
 ## Usage
 

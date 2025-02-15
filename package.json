@@ -20,12 +20,17 @@
   },
   "dependencies": {
     "fs": "^0.0.1-security",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+      "bit-bin": "^latest"
   },
+  "preferGlobal": true,
   "bin": {
     "bit": "./index.js"
+    
   },
+  
   "devDependencies": {
     "jest": "^29.7.0"
-  }
+  },
+  "keywords": ["bit", "version-control", "cli"]
 }
