@@ -83,23 +83,31 @@ This command generates a unique hash for a file and stores it in the Bit reposit
    ```
    _Output:_ "Bit repository initialized successfully!"
 
-2. Add a file to the repository:
+   <img width="373" alt="Screenshot 2025-02-16 at 1 03 04 PM" src="https://github.com/user-attachments/assets/b6195564-2c5e-4e6a-a1e6-ef554d6e84f3" />
+
+
+3. Add a file to the repository:
    ```bash
    bit add example.txt
    ```
    _Output:_ "File 'example.txt' added to the repository."
 
-3. Read file contents using its hash:
+5. Read file contents using its hash:
    ```bash
    bit read-file a1b2c3d4e5f6g7h8i9j0k
    ```
    _Output:_ "File content: Hello, world!"
 
-4. Generate a hash for a file:
+   <img width="750" alt="Screenshot 2025-02-16 at 1 04 07 PM" src="https://github.com/user-attachments/assets/d4381b47-7026-4732-99ba-900ec0711ff2" />
+
+7. Generate a hash for a file:
    ```bash
    bit hash-my-file example.txt
    ```
    _Output:_ "Generated hash for example.txt: a1b2c3d4e5f6g7h8i9j0k"
+
+   <img width="642" alt="Screenshot 2025-02-16 at 1 03 40 PM" src="https://github.com/user-attachments/assets/c2ee4743-6771-43e6-94c1-2692f4fd0322" />
+
 
 ## Screenshots
 
