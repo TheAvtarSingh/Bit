@@ -4,15 +4,20 @@ const getCatFileInputs = () => {
     // Get the Contents of the command
     const flag = process.argv[3];
     let hash = process.argv[4];
+
+    if (!hash) {
+        console.log(`Error: Missing hash value for flag "${flag}".`);
+        return;
+    }
     
     switch(flag) {
-        case '-p':
+        case '-read':
             showCatFile(hash);
         break;
-        case '-t':
+        case '-type':
             showCatFileType(hash);
         break;
-        case '-s':
+        case '-size':
             showCatFileSize(hash);
         break;
         default:
@@ -25,11 +30,11 @@ const getCatFileInputs = () => {
             }
     
             console.log("\nUsage:");
-            console.log("  bit read-file -p <hash>  # Print object content");
-            console.log("  bit read-file -t <hash>  # Show object type");
-            console.log("  bit read-file -s <hash>  # Show object size");
+            console.log("  bit read-file -read <hash>  # Print object content");
+            console.log("  bit read-file -type <hash>  # Show object type");
+            console.log("  bit read-file -size <hash>  # Show object size");
             console.log("\nExample:");
-            console.log("  bit read-file -t a1b2c3d4e5f6g7h8i9j0k");
+            console.log("  bit read-file -type a1b2c3d4e5f6g7h8i9j0k");
             break;
     }
     }

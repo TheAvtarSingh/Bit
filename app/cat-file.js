@@ -19,7 +19,12 @@ const fileContent = fs.readFileSync(completePath);
 const outputBuffer = zlib.inflateSync(fileContent);
 const fileOutput = outputBuffer.toString();
 
-console.log(fileOutput);
+ // Extract actual file content (removing "blob <size>")
+ const fileLines = fileOutput.split('\0');
+ if (fileLines.length > 1) {
+     fileLines.shift(); // Remove the first line containing "blob <size>"
+ }
+ console.log(fileLines.join('\0'));
 
 }
 

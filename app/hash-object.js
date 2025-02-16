@@ -39,7 +39,6 @@ const blob = Buffer.concat([Buffer.from(header),fileContents]);
 //  4. create hash
 const hash = crypto.createHash('sha1').update(blob).digest('hex');
 
-console.log(hash);
 return {
     blob,
     hash
