@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const createBitDirectory = require('./app/init');
 const getCatFileInputs = require('./commands/cat-file');
+const getHashObjectInputs = require('./commands/hash-object');
 
 const command = process.argv[2];
 
@@ -12,8 +13,11 @@ switch (command) {
     case 'add':
         addFile();
         break;
-    case 'cat-file':
+    case 'read-file':
         getCatFileInputs();
+        break;
+    case 'hash-my-file':
+        getHashObjectInputs();
         break;
     default:
         console.log(`Unknown command: ${command}`);
