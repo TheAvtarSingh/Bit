@@ -2,6 +2,7 @@
 const createBitDirectory = require('./app/init');
 const getCatFileInputs = require('./commands/cat-file');
 const getHashObjectInputs = require('./commands/hash-object');
+const getPrintTreeInputs = require('./commands/ls-tree');
 
 const command = process.argv[2];
 
@@ -18,6 +19,9 @@ switch (command) {
         break;
     case 'hash-my-file':
         getHashObjectInputs();
+        break;
+    case 'print-tree':
+        getPrintTreeInputs();
         break;
     default:
         console.log(`Unknown command: ${command}`);
